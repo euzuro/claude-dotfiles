@@ -24,32 +24,15 @@
       "Bash(ls:*)",
       "Bash(mkdir:*)",
       "Bash(pwd:*)",
-      "Bash(rg:*)",
-      "Bash(rm:*)",
       "Bash(tail:*)",
       "Bash(wc:*)",
       "Bash(which:*)",
       "Bash(tree:*)",
       "Bash(git:*)",
       "Bash(gh:*)",
-      "Bash(bzl:*)",
-      "Bash(rapid test:*)",
-      "Bash(go:*)",
       "Bash(jq:*)",
-      "Bash(cargo:*)",
       "Bash(npm:*)",
       "Bash(yarn:*)",
-      "Read(tasks/**)",
-      "WebFetch(domain:docs.anthropic.com)",
-      "WebFetch(domain:docs.claude.com)",
-      "WebFetch(domain:platform.openai.com)",
-      "mcp__plugin_atlassian-remote-mcp_atlassian-remote__*",
-      "mcp__atlassian-remote-mcp@datadog-claude-plugins__*",
-      "mcp__atlassian-remote__*",
-      "mcp__atlassian*",
-      "mcp__datadog__*",
-      "mcp__plugin_playwright_playwright__*",
-      "Skill(*)"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -60,9 +43,7 @@
       "Read(./secrets/**)"
     ],
     "allowedDirectories": [
-      "/Users/erik.uzureau/go/src/github.com/DataDog",
       "/Users/erik.uzureau/dd",
-      "/Users/erik.uzureau/"
     ]
   },
   "model": "opus",
