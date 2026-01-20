@@ -17,7 +17,7 @@ Clone the repository and symlink the files to `~/.claude/`:
 
 ```bash
 # Clone the repo
-git clone git@github.com:erikuzureau/claude-dotfiles.git ~/dd/claude-dotfiles
+git clone git@github.com:euzuro/claude-dotfiles.git ~/dd/claude-dotfiles
 
 # Backup existing config (if any)
 mv ~/.claude/settings.json ~/.claude/settings.json.bak
