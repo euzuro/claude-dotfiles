@@ -32,7 +32,7 @@
       "Bash(gh:*)",
       "Bash(jq:*)",
       "Bash(npm:*)",
-      "Bash(yarn:*)",
+      "Bash(yarn:*)"
     ],
     "deny": [
       "Bash(sudo:*)",
@@ -43,7 +43,7 @@
       "Read(./secrets/**)"
     ],
     "allowedDirectories": [
-      "/Users/erik.uzureau/dd",
+      "/Users/erik.uzureau/dd"
     ]
   },
   "model": "opus",
