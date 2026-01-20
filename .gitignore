@@ -1,0 +1,22 @@
+# Credentials and sensitive data
+.credentials.json
+*.credentials*
+
+# Cache and temporary files
+cache/
+debug/
+downloads/
+file-history/
+plans/
+session-env/
+shell-snapshots/
+statsig/
+telemetry/
+todos/
+
+# History and stats
+history.jsonl
+stats-cache.json
+
+# OS files
+.DS_Store
