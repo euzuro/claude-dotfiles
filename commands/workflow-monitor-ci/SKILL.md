@@ -5,8 +5,8 @@ context: fork
 agent: general-purpose
 allowedTools:
   - "Bash(gh pr checks *)"
-  - "Bash(scripts/check-ci-status.sh *)"
-  - "Bash(gh pr checks --json link,state,name 2>&1 | scripts/check-ci-status.sh)"
+  - "Bash(~/.claude/scripts/check-ci-status.sh *)"
+  - "Bash(gh pr checks --json link,state,name 2>&1 | ~/.claude/scripts/check-ci-status.sh)"
 ---
 
 ## Monitor PRs CI Output
@@ -19,7 +19,7 @@ This workflow reports back to the main agent when jobs fail or when all pass.
 Check CI status by running:
 
 ```bash
-gh pr checks --json link,state,name 2>&1 | scripts/check-ci-status.sh
+gh pr checks --json link,state,name 2>&1 | ~/.claude/scripts/check-ci-status.sh
 ```
 
 - Poll periodically (every 30s) until all jobs complete (no pending jobs remain)
