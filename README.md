@@ -8,7 +8,8 @@ Personal configuration files for [Claude Code](https://docs.anthropic.com/en/doc
 .
 ├── CLAUDE.md       # Global behavior instructions
 ├── settings.json   # Settings and permissions
-└── commands/       # Custom slash commands/skills
+├── commands/       # Custom slash commands/skills
+└── scripts/        # Helper scripts used by commands
 ```
 
 ## Installation
@@ -27,6 +28,7 @@ mv ~/.claude/CLAUDE.md ~/.claude/CLAUDE.md.bak
 ln -sf ~/dd/claude-dotfiles/settings.json ~/.claude/settings.json
 ln -sf ~/dd/claude-dotfiles/CLAUDE.md ~/.claude/CLAUDE.md
 ln -sf ~/dd/claude-dotfiles/commands ~/.claude/commands
+ln -sf ~/dd/claude-dotfiles/scripts ~/.claude/scripts
 ```
 
 ## Custom Commands
