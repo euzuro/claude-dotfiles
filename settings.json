@@ -46,8 +46,32 @@
       "/Users/erik.uzureau/dd"
     ]
   },
-  "model": "opus",
+  "model": "opus[1m]",
   "enableAllProjectMcpServers": true,
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Ping.aiff"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ]
+  },
   "statusLine": {
     "type": "command",
     "command": "bash /Users/erik.uzureau/go/src/github.com/DataDog/claude-dotfiles/statusline.sh"
@@ -70,7 +94,8 @@
     "gopls-lsp@claude-plugins-official": true,
     "playwright@claude-plugins-official": true,
     "redblue@datadog-claude-plugins": true,
-    "skills@datadog-claude-plugins": true
+    "skills@datadog-claude-plugins": true,
+    "coach@datadog-claude-plugins": true
   },
   "alwaysThinkingEnabled": true,
   "defaultMode": "plan"
