@@ -11,6 +11,7 @@ These instructions apply to all Claude Code sessions.
 - Be concise and direct
 - Prefer simple solutions over complex ones
 - Never use `--no-verify` when committing with git
+- Always use the `AskUserQuestion` tool when asking multiple-choice questions (with or without a "something else" / free-text option)
 
 ## Atlassian MCP Server
 
