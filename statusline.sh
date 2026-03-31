@@ -71,5 +71,5 @@ if [ -n "$pr_url" ]; then
 fi
 
 # Output
-printf '\033[36m%s\033[0m%s\n\033[33m❋\033[0m %s  \033[90mv%s\033[0m\n%s%% %b%s\033[0m (%sk/%sk)  \033[32m⏱\033[0m %sm  \033[33m$%s\033[0m  %sk↑  %sk↓' \
-  "$project_path" "$git_info" "$model" "$version" "$ctx_pct" "$bar_color" "$bar" "$ctx_used" "$ctx_total" "$duration_min" "$cost_usd" "$in_tokens" "$out_tokens"
+printf '%s%% %b%s\033[0m (%sk/%sk)  \033[32m⏱\033[0m %sm  \033[33m$%s\033[0m\n\033[36m%s\033[0m%s  \033[33m❋\033[0m %s  \033[90mv%s\033[0m' \
+  "$ctx_pct" "$bar_color" "$bar" "$ctx_used" "$ctx_total" "$duration_min" "$cost_usd" "$project_path" "$git_info" "$model" "$version"
