@@ -95,8 +95,25 @@
     "playwright@claude-plugins-official": true,
     "redblue@datadog-claude-plugins": true,
     "skills@datadog-claude-plugins": true,
-    "coach@datadog-claude-plugins": true
+    "coach@datadog-claude-plugins": true,
+    "lapdog@lapdog": true,
+    "trajectory@trajectory": true
+  },
+  "extraKnownMarketplaces": {
+    "lapdog": {
+      "source": {
+        "source": "github",
+        "repo": "DataDog/dd-apm-test-agent"
+      }
+    },
+    "trajectory": {
+      "source": {
+        "source": "directory",
+        "path": "/Users/erik.uzureau/.trajectory/claude-marketplace"
+      }
+    }
   },
   "alwaysThinkingEnabled": true,
+  "skipDangerousModePermissionPrompt": true,
   "defaultMode": "plan"
 }

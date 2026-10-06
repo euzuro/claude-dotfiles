@@ -1,4 +1,4 @@
-# Global Claude Instructions
+# Global Claude Instructioniones
 
 These instructions apply to all Claude Code sessions.
 
